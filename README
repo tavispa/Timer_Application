@@ -1,0 +1,5 @@
+Our goal is to have a timer that can be a stopwatch, a countdown timer, or an alarm.  It will be able to do laps if it's a stopwatch, roll over if it's on countdown (so if it starts at 45s, once it hits 0 it goes back to 45s).  We also hope to have multiple timers available in one window, and to be able to depend on each other, although that is dependent on getting the first stuff working.  We are going to use Qt 4 for the GUI and C++ for the language.
+
+The modular aspects will be having different functions for each of the kinds of timers and possibly taking output from one as the input to another. 
+
+The way it will be divided is to have one person focus on the GUI implementation since neither of us have used Qt4, and the other focus on the timer aspect.  As the GUI is solidifed, the team members will work on different aspects of the timer functions independently but sharing information about how the QTime class works in Qt 4.  We will probably use Qt classes rather than the normal C++ classes.
