@@ -7,5 +7,5 @@
 
 
  int  countUp(std::string stopCount); //Counts up from present time for specified seconds (stopCount)
- void stopWatch();
+ int stopWatch(int waitSeconds );
 #endif
