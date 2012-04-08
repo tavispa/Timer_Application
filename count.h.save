@@ -1,0 +1,7 @@
+#ifndef COUNT_H_INCLUDED
+#define
+
+ COUNT_H_INCLUDED 
+
+public void countUp();
+public void stopWatch();

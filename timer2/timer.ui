@@ -6,72 +6,125 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>762</width>
+    <height>433</height>
    </rect>
   </property>
+  <property name="cursor">
+   <cursorShape>CrossCursor</cursorShape>
+  </property>
   <property name="windowTitle">
-   <string>timer</string>
+   <string>Count Up and Count Down Timers</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>80</y>
-      <width>161</width>
-      <height>31</height>
+      <x>100</x>
+      <y>90</y>
+      <width>511</width>
+      <height>131</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QSpinBox" name="spinBox_h"/>
+      <widget class="QSpinBox" name="spinBox_h">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>CrossCursor</cursorShape>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_m"/>
+      <widget class="QSpinBox" name="spinBox_m">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+      </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="spinBox_s"/>
+      <widget class="QSpinBox" name="spinBox_s">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
    <widget class="QPushButton" name="pushButton_countdown">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>120</y>
-      <width>75</width>
-      <height>23</height>
+      <x>160</x>
+      <y>230</y>
+      <width>151</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
     <property name="text">
-     <string>CountDown</string>
+     <string>Count  Down</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>60</y>
-      <width>161</width>
-      <height>20</height>
+      <x>120</x>
+      <y>50</y>
+      <width>471</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="text">
-     <string>Hours        Minutes         Seconds</string>
+     <string> Hours             Minutes         Seconds</string>
     </property>
    </widget>
    <widget class="QPushButton" name="countUp">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>150</y>
-      <width>75</width>
-      <height>23</height>
+      <x>410</x>
+      <y>230</y>
+      <width>151</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
     <property name="text">
-     <string>CountUp</string>
+     <string>Count  Up</string>
     </property>
    </widget>
   </widget>
@@ -84,7 +137,7 @@
     <enum>TopToolBarArea</enum>
    </attribute>
    <attribute name="toolBarBreak">
-    <bool>true</bool>
+    <bool>false</bool>
    </attribute>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -92,14 +145,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>400</width>
-     <height>21</height>
+     <width>762</width>
+     <height>31</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
      <string>File</string>
     </property>
+    <addaction name="actionHello_Tony"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -113,6 +167,11 @@
   <action name="actionAbout">
    <property name="text">
     <string>About</string>
+   </property>
+  </action>
+  <action name="actionHello_Tony">
+   <property name="text">
+    <string>Hello Tony</string>
    </property>
   </action>
  </widget>
