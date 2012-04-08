@@ -1,5 +1,6 @@
 #include "timer.h"
 #include "ui_timer.h"
+#include "about.h"
 
 timer::timer(QWidget *parent) :
     QMainWindow(parent),
@@ -66,4 +67,11 @@ void timer::setMLow(){
 
 void timer::setSLow(){
     ui->spinBox_s->setValue(0);
+}
+
+void timer::on_actionAbout_triggered()
+{
+    about aboutWindow;
+    aboutWindow.setModal(true);
+    aboutWindow.exec();
 }
