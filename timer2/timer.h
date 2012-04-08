@@ -31,6 +31,9 @@ public slots:
 private:
     Ui::timer *ui;
     QTimer *mytimer;
+
+private slots:
+    void on_actionAbout_triggered();
 };
 
 #endif // TIMER_H

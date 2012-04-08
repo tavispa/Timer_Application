@@ -11,8 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        timer.cpp
+        timer.cpp \
+    about.cpp
 
-HEADERS  += timer.h
+HEADERS  += timer.h \
+    about.h
 
-FORMS    += timer.ui
+FORMS    += timer.ui \
+    about.ui
