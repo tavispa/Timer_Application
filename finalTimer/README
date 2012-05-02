@@ -1,0 +1,18 @@
+A Timer application with two options.  A single up/down timer or a dependent timer.
+
+In order to properly compile this program in a linux environment you must install the qt4 libraries if 
+they are not already on your system.  To do this run this command from the terminal:
+
+sudo apt-get install libxtst-dev build-essential libqt4-dev qt4-qmake
+
+In order to run the program you type qmake and then make from the command line.  This should create an executable
+called finalTimer.  To execute the program type ./finalTimer
+
+
+User instructions:
+
+There are two buttons in the main window.  The single timer button lauches a window that has a single count up or 
+count down timer.  There are two options to choose  what will occur when the timer finishes.  The dependent timer button launches
+a new timer that has dependencies. There is a About button for user instructions.
+
+

@@ -33,12 +33,12 @@ public slots:
 private:
     Ui::dependent *ui;
     QTimer *mytimer;
-    int main_h;
-    int main_m;
-    int main_s;
-    int dep_h;
-    int dep_m;
-    int dep_s;
+    int main_h; // main timer hours
+    int main_m; // main timer minutes
+    int main_s; // main timer seconds
+    int dep_h; // dependent timer hours
+    int dep_m; // dependent timer minutes
+    int dep_s; // dependent timer seconds
 
 private slots:
     void on_pushAbout_clicked();
