@@ -5,8 +5,11 @@ they are not already on your system.  To do this run this command from the termi
 
 sudo apt-get install libxtst-dev build-essential libqt4-dev qt4-qmake
 
-In order to run the program you type qmake and then make from the command line.  This should create an executable
-called finalTimer.  To execute the program type ./finalTimer
+In order to run the program enter the finalTimer directory, run the command:
+qmake
+Once that finishes run the command
+make
+This should create an executable called finalTimer.  To execute the program type ./finalTimer
 
 
 User instructions:
@@ -14,5 +17,3 @@ User instructions:
 There are two buttons in the main window.  The single timer button lauches a window that has a single count up or 
 count down timer.  There are two options to choose  what will occur when the timer finishes.  The dependent timer button launches
 a new timer that has dependencies. There is a About button for user instructions.
-
-
