@@ -1,0 +1,5 @@
+My contributions to this project involved developing the layout for the timer GUI and locating resources for us to use to develop in QT.
+I also attempted to manage the repo but we had some problems with it where we couldn't it to sync correctly so we often did things through
+dropbox instead.  
+I wrote prototype code in C and Qt's C++ to demonstrate the single timer application.
+I wrote the code for the single timer application and made the decisions on the GUI architecture, and decided on its limitations for the scope of this project.
