@@ -12,6 +12,10 @@ the executable for the GUI will be called finalTimer.
 Run
 ./finalTimer
 
+To clean the *.o, moc*, and Makefile from the timerGUI directory run 
+
+make clean
+
 
 User instructions:
 

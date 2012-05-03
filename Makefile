@@ -8,7 +8,9 @@ export CXX_FLAGS
 finalTimer: 
 	qmake timerGUI/finalTimer.pro -o timerGUI/Makefile
 	$(MAKE) -C timerGUI
-	rm ./timerGUI/moc*
-	rm ./timerGUI/*.o
-	rm ./timerGUI/Makefile
 	mv timerGUI/finalTimer $(INSTALL_DIR)
+
+clean: 
+	rm timerGUI/moc*
+	rm timerGUI/*.o
+	rm timerGUI/Makefile
