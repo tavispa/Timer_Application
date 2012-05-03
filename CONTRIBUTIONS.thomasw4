@@ -1,0 +1,6 @@
+
+I worked on some of the qt code and ui files. Made changes and updates to some of the source code.  Usig github posed some problems for us, we often times
+couldn't push or pull. We reverted to dropbox and email, to collaborate on the project.  Most of my contribution is for the text based timer (console input and output)
+and trying to link the gui to the console.  As it is right now, the gui is working great, the console is working great, but still working on the interfacing between the two.
+We have not pushed the console version to the repo yet.  What we have now is working and in order to meet the deadline of a "working" submission, I chose to not push the
+console version until later today.  
