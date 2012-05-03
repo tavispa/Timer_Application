@@ -5,11 +5,12 @@ they are not already on your system.  To do this run this command from the termi
 
 sudo apt-get install libxtst-dev build-essential libqt4-dev qt4-qmake
 
-In order to run the program enter the finalTimer directory, run the command:
-qmake
-Once that finishes run the command
+In order to create the executable for the main directory run
 make
-This should create an executable called finalTimer.  To execute the program type ./finalTimer
+
+the executable for the GUI will be called finalTimer.
+Run
+./finalTimer
 
 
 User instructions:
