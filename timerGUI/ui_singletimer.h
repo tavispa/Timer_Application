@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'singletimer.ui'
 **
-** Created: Wed May 2 23:40:02 2012
-**      by: Qt User Interface Compiler version 4.7.2
+** Created: Sun May 6 01:43:24 2012
+**      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -38,8 +38,8 @@ public:
     QLabel *label;
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_2;
-    QRadioButton *radioDown;
     QRadioButton *radioUp;
+    QRadioButton *radioDown;
     QWidget *layoutWidget1;
     QVBoxLayout *verticalLayout;
     QCheckBox *checkMessage;
@@ -87,15 +87,15 @@ public:
         horizontalLayout_2 = new QHBoxLayout(layoutWidget);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
         horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        radioDown = new QRadioButton(layoutWidget);
-        radioDown->setObjectName(QString::fromUtf8("radioDown"));
-
-        horizontalLayout_2->addWidget(radioDown);
-
         radioUp = new QRadioButton(layoutWidget);
         radioUp->setObjectName(QString::fromUtf8("radioUp"));
 
         horizontalLayout_2->addWidget(radioUp);
+
+        radioDown = new QRadioButton(layoutWidget);
+        radioDown->setObjectName(QString::fromUtf8("radioDown"));
+
+        horizontalLayout_2->addWidget(radioDown);
 
         layoutWidget1 = new QWidget(singleTimer);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
@@ -142,8 +142,8 @@ public:
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Bitstream Charter'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:14pt;\">Count Down Options</span></p></body></html>", 0, QApplication::UnicodeUTF8));
-        radioDown->setText(QApplication::translate("singleTimer", "Count Down", 0, QApplication::UnicodeUTF8));
         radioUp->setText(QApplication::translate("singleTimer", "Count Up", 0, QApplication::UnicodeUTF8));
+        radioDown->setText(QApplication::translate("singleTimer", "Count Down", 0, QApplication::UnicodeUTF8));
         checkMessage->setText(QApplication::translate("singleTimer", "Show Message", 0, QApplication::UnicodeUTF8));
         checkRollover->setText(QApplication::translate("singleTimer", "Rollover", 0, QApplication::UnicodeUTF8));
         pushStart->setText(QApplication::translate("singleTimer", "Start", 0, QApplication::UnicodeUTF8));

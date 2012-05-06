@@ -1,24 +1,55 @@
-A Timer application with two options.  A single up/down timer or a dependent timer.
+A Timer application with three options.    
+
 
 In order to properly compile this program in a linux environment you must install the qt4 libraries if 
 they are not already on your system.  To do this run this command from the terminal:
 
 sudo apt-get install libxtst-dev build-essential libqt4-dev qt4-qmake
 
-In order to create the executable for the main directory run
+
+To create the executable for the main directory run:
+
 make
 
-the executable for the GUI will be called finalTimer.
-Run
-./finalTimer
+The executable for the TIMER will be called timer.
 
-To clean the *.o, moc*, and Makefile from the timerGUI directory run 
+
+To clean the *.o, moc*, and Makefile from the timerGUI directory run:
 
 make clean
 
 
-User instructions:
+To Execute from command line:
+
+./timer [version option] [# of timers]
+
+version options:
+1 - stand alone console timer (No GUI)
+2 - stand alone GUI timer
+3 - Timer that takes console input and outputs via GUI timer
+
+# of timers:
+Number of timers needed (must be between 1 and 10)
+
+
+Version 1 instructions:
+User will be prompted to enter events and time for each event, the time must 
+be entered in the following format:
+
+HH:MM:SS
+
+User will be notified how long before the next event needs to be started and 
+notified again when to start that event
+
+
+Version 2 instructions:
 
 There are two buttons in the main window.  The single timer button lauches a window that has a single count up or 
 count down timer.  There are two options to choose  what will occur when the timer finishes.  The dependent timer button launches
 a new timer that has dependencies. There is a About button for user instructions.
+
+
+Version 3:
+
+Still under construction.
+-------------------------------------------------------------------------------------

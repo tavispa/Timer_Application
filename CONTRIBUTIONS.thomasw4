@@ -4,3 +4,6 @@ couldn't push or pull. We reverted to dropbox and email, to collaborate on the p
 and trying to link the gui to the console.  As it is right now, the gui is working great, the console is working great, but still working on the interfacing between the two.
 We have not pushed the console version to the repo yet.  What we have now is working and in order to meet the deadline of a "working" submission, I chose to not push the
 console version until later today.  
+
+
+I have added the new files for the text timer.  The gui timer is now executed via the commandline using various options
