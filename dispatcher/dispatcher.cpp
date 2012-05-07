@@ -14,8 +14,9 @@ int main(int argc, char *argv[])
 {
 	if(argc == 1 || argc ==2)
 	{
-		cout << "There is a README for a reason" << endl;
-		cout << "READ IT!!" << endl;
+		cout << "You must include the type of timer and the number of timers" << endl;
+		cout << "eg. ./timer 2 1" << endl;
+		cout << "See README for further documentation." << endl;
 		return EXIT_FAILURE;
 	}
 		
