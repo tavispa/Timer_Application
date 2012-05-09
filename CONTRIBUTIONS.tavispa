@@ -3,3 +3,5 @@ I also attempted to manage the repo but we had some problems with it where we co
 dropbox instead.  
 I wrote prototype code in C and Qt's C++ to demonstrate the single timer application.
 I wrote the code for the single timer application and made the decisions on the GUI architecture, and decided on its limitations for the scope of this project.
+
+I also tried to update the README as feedback was received.
