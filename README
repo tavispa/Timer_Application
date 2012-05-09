@@ -33,6 +33,9 @@ Number of timers needed (must be between 1 and 10)
 
 
 Version 1 instructions:
+NOTE:If you do not enter the time in the correct format, you will get a basic_string error. 
+
+
 User will be prompted to enter events and time for each event, the time must 
 be entered in the following format:
 
@@ -40,6 +43,22 @@ HH:MM:SS
 
 User will be notified how long before the next event needs to be started and 
 notified again when to start that event
+
+If you use multiple timers, enter the events beginning at the LAST event:
+For example, You want to cook 3 items, meat, potatoes, and corn.
+Corn takes 10 seconds, potatoes takes 20 seconds, and meat takes 1 minute.
+Run this command:
+./timer 1 3
+
+You will be prompted to 'enter timed event' and 'enter time needed.'  Do this as follows:
+Enter timed event: corn
+Enter time needed for corn: 00:00:10
+Enter timed event: potatoes
+Enter time needed for potatoes: 00:00:20
+Enter timed event: meat
+Enter time needed for meat: 00:01:00
+
+
 
 
 Version 2 instructions:
